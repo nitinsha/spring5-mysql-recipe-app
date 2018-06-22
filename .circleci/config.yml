@@ -45,6 +45,5 @@ jobs:
 
       - run:
           name: Send to CodeCov
-          command: 
-            - pip install --user https://github.com/codecov/codecov-python/archive/master.zip
-            - ~/.local/bin/codecov -X gcov -f
+          command: pip install --user https://github.com/codecov/codecov-python/archive/master.zip
+            
